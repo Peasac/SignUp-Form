@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+    font-size: 72px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.left-container {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background:   url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    
+}
+.Logo-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    background-color: rgb(0,0,0,0.5);
+    width: 100%;
+    justify-content: center;
+
+}
+.Logo-text {
+    font-family: Norse-Bold;
+    font-size: 90px;
+    color: white;
+}
+.credits {
+    color: white;
+    width: fit-content;
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+    
+}
+.credits a {
+    color: white;
+    
+
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+}
+
+.upper {
+    background-color: #F8F9FA;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.upper-text {
+    width: 730px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: relative;
+    left: 40px;
+    
+}
+.middle p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 40px;
+    margin-top: 15px;
+    width: fit-content;
+}
+.form {
+    position: relative;
+    left: 40px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    overflow: visible;
+    
+    
+}
+.middle {
+    margin-bottom: 15px;
+    
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 85px;
+    margin-bottom: 20px;
+}
+input {
+    width: 250px;
+    border: solid #E5E7EB;
+    height: 30px;
+    
+    border-radius: 7px;
+    
+}
+label {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+    
+}
+
+input:focus {
+    border: solid blue;
+}
+.pwd:invalid, .cpwd:invalid {
+    border: solid red;
+}
+
+.lower {
+    padding-top: 25px;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+}
+.lower button {
+    position: relative;
+    left: 40px;
+    width: 220px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #E5E7EB;
+    background-color: #596D48;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lower p {
+    width: fit-content;
+    position: relative;
+    left: 40px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.lower a {
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}
